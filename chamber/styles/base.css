@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/hero-image.PNG") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    line-height: 46px;
+    height: 500px;
+}
+header{
+    background-color: lightgreen;
+}
+.container3{
+    margin-left:13% ;
+    position: absolute;
+    top:0 ;
+    margin-top: 90px;
+
+}
+.container {
+    margin-left: 80%;
+    position: absolute;
+    top: 0%;
+    margin-top: 5%;
+}
+span{
+    margin-left: 10px;
+}
+button{
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.container2 {
+    margin-left: 40%;
+}
+hr{
+            border: 10px;
+            height: 1px;
+            background: hsl(140, 100%, 50%); 
+            margin: 20px 0;
+            border-radius: 50px;
+            
+
+}
+
+.mission-section{
+display:flex ;
+
+}
+
+.area-section{
+    border: solid 5px #08ec1b;
+    margin: 0.5rem;
+    padding-left: 20px;
+}
+
+
+main{
+    padding-left: 80px;
+    padding-right: 80px;
+
+    margin-top: 40px;
+}
+
+.custom-hr {
+    margin-right: 50%;
+
+}
+
+
+.line::after {
+    content: "";
+    display: block;
+    border-top: 1px solid #0bee57; 
+    margin: 20px 0; 
+}
+
+strong{
+    font-size: 70px;
+    margin-top: 40px;
+    
+}
+
+.top {
+    margin-top: 50px;
+}
+
+
+
+.get-in-touch{
+    display: flex;
+}
+.get-in-touch h2 {
+    border: 2px solid #0ff12d;
+    border-radius: 10px; 
+    padding: 10px; 
+    display: inline-block; 
+}
+.get-in-touch img {
+    margin-right: 30px; 
+}
+/*body {
+    margin: 0;
+    padding: 0;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.get-in-touch img {
+    width: 100%;
+    max-width: 300px; 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    .get-in-touch img {
+        width: calc(33.33% - 20px);
+        margin-bottom: 0;
+        margin-right: 20px;
+    }*/
+    .social-icons {
+        display: flex;
+        margin-left: 90%;
+        margin-top: 20px;
+    }
+    
+    .icon {
+        font-size: 24px;
+        margin: 0 10px;
+        color: #333; 
+        text-decoration: none;
+    }
+    
+    .icon:hover {
+        color: #0ae24b; 
+    }
+    
+

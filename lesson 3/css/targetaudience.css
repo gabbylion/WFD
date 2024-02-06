@@ -1,0 +1,16 @@
+header{
+    
+    background-color: lightgreen;
+    padding-left: 40%;
+    color: blue;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+footer{
+    background-color: lightgreen;
+}
